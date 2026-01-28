@@ -23,6 +23,12 @@ dependencies {
     
     // JSON serialization
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.6.0")
+    
+    // Testing dependencies
+    testImplementation("com.squareup.okhttp3:mockwebserver:4.12.0")
+    testImplementation("org.jetbrains.kotlinx:kotlinx-coroutines-test:1.7.3")
+    testImplementation("org.mockito.kotlin:mockito-kotlin:5.1.0")
+    testImplementation("app.cash.turbine:turbine:1.0.0")
 }
 
 application {
