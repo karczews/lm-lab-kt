@@ -25,3 +25,53 @@ replay_pid*
 
 # Kotlin Gradle plugin data, see https://kotlinlang.org/docs/whatsnew20.html#new-directory-for-kotlin-data-in-gradle-projects
 .kotlin/
+
+# IDE directories
+.idea/
+**/.idea/
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+out/
+*.iml
+*.ipr
+*.iws
+.Gradle/
+
+# JetBrains
+*.swp
+*~
+.idea_modules/
+.atlassian-*
+bitbucket_accumulate.xml
+bitbucket_filter.pl
+.idea/local.properties
+**/local.properties
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/caches
+.idea/inspectionProfiles
+
+# Generated files
+bin/
+gen/
+release/
+
+# Secrets
+*.jks
+*.keystore
+*.pem
+*.p12
+secrets.properties
